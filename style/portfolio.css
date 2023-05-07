@@ -40,6 +40,17 @@ nav li {
     border: 0;
 }
 
+.contact-button {
+    padding: 18px 30px;
+    height: 60px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    margin-left: 10px;
+}
+
 /* banner style */
 .banner-sub-title {
     font-weight: 600;
@@ -167,9 +178,11 @@ main {
     color: #181818;
     text-align: center;
 }
-.resume{
+
+.resume {
     margin-bottom: 130px;
 }
+
 .resume-content {
     display: flex;
     gap: 24px;
@@ -219,12 +232,14 @@ main {
     gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
-    
+
 }
 
 
 
-.contact ,input[type="text"],input[type="email"],
+.contact,
+input[type="text"],
+input[type="email"],
 textarea {
     margin: 24px;
     border: 0;
